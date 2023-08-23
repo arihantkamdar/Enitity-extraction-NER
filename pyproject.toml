@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "entity"
+version = "0.1.0"
+description = ""
+authors = ["arihantkamdar <arihant030701@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = "^4.32.0"
+torch = ">=2.0.0, !=2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
